@@ -1,5 +1,9 @@
-import pickle as serial
+#import pickle as serial #serialization library
+import pathlib
 
-print(serial.load(open("settings/shipNames.cfg", "r"))); raise Exception("GOOCH")
+mods = [] #3rd party mods
 
-settingsFiles = {open()}
+for module in pathlib.Path("mods"):
+    mods.append(module) #temp kludge, breakpoint
+
+settingsFiles = {eval(open("settings/shipNames.cfg", "r"))}
