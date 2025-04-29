@@ -8,4 +8,4 @@ for module in pathlib.Path("../"):
         i = i + 1
 
 print("STOCK CONFIG LOADED")
-print("LOADED " + str(i) + "3PMs")
+print("LOADED " + str(i) + " 3PMs")
